@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.source_files     = "Sources/**/*.swift"
   spec.resource_bundle  = { "MultiImageRow" => "Sources/*.bundle/**/*.xib" }
 
-  spec.dependency 'Eureka', '~> 4.2.0'
-  spec.dependency 'AlamofireImage', '~> 3.3'
+  spec.dependency 'Eureka', '~> 5.0'
+  spec.dependency 'AlamofireImage', '~> 3.5.2'
   spec.dependency 'ImagePickerCoordinator'
 end
